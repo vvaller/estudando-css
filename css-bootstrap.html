@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Css Interna</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CSS Interna-->
+
+    <style type="text/css">
+        .header {
+            background-color: rgb(85, 175, 156);
+        }
+
+        .main {
+            height: 800px;
+        }
+
+        .coluna_1 {
+            background-color: aqua;
+        }
+
+        .coluna_2 {
+            background-color: aliceblue;
+        }
+
+        .coluna_3 {
+            background-color: aquamarine;
+        }
+
+        .footer {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-12 text-center header">
+                Cabeçalho
+            </header>
+        </div>
+
+        <div class="row main">
+            <div class="col-2 text-center coluna_1">
+                Coluna 1
+            </div>
+            <div class="col-8 text-center coluna_2">
+                Coluna 2
+            </div>
+            <div class="col-2 text-center coluna_3">
+                Coluna 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center footer">
+                Rodapé
+            </div>
+        </div>
+
+</body>
+
+</html>
